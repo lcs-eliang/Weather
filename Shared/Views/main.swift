@@ -21,21 +21,26 @@ while true {
     
     let answer = readLine()!
     
-    // Generate a weather prediction
-    let prediction = WeatherPredictionGenerator.getPrediction()
     
-    history.append(prediction)
+    
     
     // what's in the array?
     dump(history)
     
     
     if answer == "Y" {
+        
+        // Generate a weather prediction
+        let prediction = WeatherPredictionGenerator.getPrediction()
+
+        
         print("Current conditions are \(prediction.condition.description.lowercased()) with a temperature of \(String(format: "%.1f", arguments: [prediction.temperature])) °C.")
         
         print("That's \(prediction.feel.lowercased())!")
+
         
         
+        history.append(prediction)
         
     }  else if answer == "N" {
         
@@ -44,7 +49,6 @@ while true {
         let answer1 = readLine()!
         
         if answer1 == "Y" {
-            
             
             print("History: \(history)")
             
