@@ -9,7 +9,9 @@ import Foundation
 
 
 
-
+var history: [Prediction] = []
+    
+    
 
 while true {
     // Show the prediction
@@ -22,8 +24,10 @@ while true {
     // Generate a weather prediction
     let prediction = WeatherPredictionGenerator.getPrediction()
     
-    var history: [Prediction] = []
+    history.append(prediction)
     
+    // what's in the array?
+    dump(history)
     
     
     if answer == "Y" {
