@@ -64,18 +64,20 @@ struct WeatherPredictionGenerator {
         WeatherCondition(description: "Sandstorms"),
     ]
     
+    
+    
     // Provides a random weather prediction
     static func getPrediction() -> Prediction {
         
         // Get a possible temperature range
-        let temperatureRange = temperatureRanges.first!
+        let temperatureRange = temperatureRanges.randomElement()!
         
         // Now get an exact temperature from that range
         let temperature = Double.random(in: temperatureRange.bounds)
         let feel = temperatureRange.feel
-
+        
         // Get a weather condition
-        let condition = weatherConditions.first!
+        let condition = weatherConditions.randomElement()!
         
         // Make the prediction
         let prediction = Prediction(temperature: temperature,
@@ -89,4 +91,25 @@ struct WeatherPredictionGenerator {
         
     }
     
+    
+    
 }
+
+//    // Create an array of possible weather conditions
+//    static private let weatherConditions1: [WeatherCondition1] = [
+//        WeatherCondition1(description: "Sunny/Clear"),
+//        WeatherCondition1(description: "Partially cloudy"),
+//        WeatherCondition1(description: "Cloudy"),
+//        WeatherCondition1(description: "Overcast"),
+//        WeatherCondition1(description: "Rain"),
+//        WeatherCondition1(description: "Drizzle"),
+//        WeatherCondition1(description: "Snow"),
+//        WeatherCondition1(description: "Stormy"),
+//        WeatherCondition1(description: "Tornadoes"),
+//        WeatherCondition1(description: "Thundersnows"),
+//        WeatherCondition1(description: "Fog"),
+//        WeatherCondition1(description: "Hurricanes"),
+//        WeatherCondition1(description: "Sandstorms"),
+//    ]
+
+

@@ -16,6 +16,12 @@ struct Prediction {
     let feel: String
 
     // A description of the overall weather conditions for this prediction (sunny, rainy, et cetera)
+//    switch temperature {
+//    case -100...0:
+//        let condition: WeatherCondition
+//    default:
+//        let condition: WeatherCondition1
+//    }
     let condition: WeatherCondition
     
 }
