@@ -13,7 +13,6 @@
 		0E82BBDA2705CC7500BD6434 /* WeatherPredictionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBD92705CC7500BD6434 /* WeatherPredictionGenerator.swift */; };
 		0E82BBDC2705CCC400BD6434 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBDB2705CCC400BD6434 /* WeatherCondition.swift */; };
 		0E82BBE02705D8E300BD6434 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBDF2705D8E300BD6434 /* WeatherViewModel.swift */; };
-		995B79232705F6CC00E00582 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B79222705F6CC00E00582 /* Report.swift */; };
 		995B792B270760D600E00582 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B792A270760D600E00582 /* WeatherAppApp.swift */; };
 		995B792D270760D700E00582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B792C270760D700E00582 /* ContentView.swift */; };
 		995B792F270760FF00E00582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995B792E270760FF00E00582 /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		995B79372707612C00E00582 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBD72705C87F00BD6434 /* Prediction.swift */; };
 		995B79382707612C00E00582 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBDB2705CCC400BD6434 /* WeatherCondition.swift */; };
 		995B793A2707612C00E00582 /* WeatherPredictionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBD92705CC7500BD6434 /* WeatherPredictionGenerator.swift */; };
-		995B793B2707612C00E00582 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B79222705F6CC00E00582 /* Report.swift */; };
 		995B793C2707612C00E00582 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBDF2705D8E300BD6434 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +44,6 @@
 		0E82BBD92705CC7500BD6434 /* WeatherPredictionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPredictionGenerator.swift; sourceTree = "<group>"; };
 		0E82BBDB2705CCC400BD6434 /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
 		0E82BBDF2705D8E300BD6434 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		995B79222705F6CC00E00582 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		995B7928270760D600E00582 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		995B792A270760D600E00582 /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
 		995B792C270760D700E00582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,7 +104,6 @@
 				0E82BBD72705C87F00BD6434 /* Prediction.swift */,
 				0E82BBDB2705CCC400BD6434 /* WeatherCondition.swift */,
 				0E82BBD92705CC7500BD6434 /* WeatherPredictionGenerator.swift */,
-				995B79222705F6CC00E00582 /* Report.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,7 +237,6 @@
 				0E82BBDA2705CC7500BD6434 /* WeatherPredictionGenerator.swift in Sources */,
 				0E82BBE02705D8E300BD6434 /* WeatherViewModel.swift in Sources */,
 				0E82BBD62705C6CF00BD6434 /* CelsiusTemperatureRange.swift in Sources */,
-				995B79232705F6CC00E00582 /* Report.swift in Sources */,
 				0E82BBDC2705CCC400BD6434 /* WeatherCondition.swift in Sources */,
 				0E82BBCB2705C63A00BD6434 /* main.swift in Sources */,
 				0E82BBD82705C87F00BD6434 /* Prediction.swift in Sources */,
@@ -256,7 +251,6 @@
 				995B79372707612C00E00582 /* Prediction.swift in Sources */,
 				995B79382707612C00E00582 /* WeatherCondition.swift in Sources */,
 				995B793A2707612C00E00582 /* WeatherPredictionGenerator.swift in Sources */,
-				995B793B2707612C00E00582 /* Report.swift in Sources */,
 				995B793C2707612C00E00582 /* WeatherViewModel.swift in Sources */,
 				995B792D270760D700E00582 /* ContentView.swift in Sources */,
 				995B792B270760D600E00582 /* WeatherAppApp.swift in Sources */,
