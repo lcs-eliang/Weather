@@ -47,8 +47,21 @@ while true {
         let answer1 = readLine()!
         
         if answer1 == "Y" {
+            
+//            // Show history
+//            print("")
+//            print("History")
+//            print("-------")
+//            for session in advisor.sessions {
+//                print(session.question)
+//                print(session.response)
+//                print("")
 
-            dump(viewModel.reports)
+            for report in viewModel.reports {
+                print(report.temperature)
+                print(report.feel)
+                print(report.condition)
+            }
             
         } else if answer1 == "N" {
             
